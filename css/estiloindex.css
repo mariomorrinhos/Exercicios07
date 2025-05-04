@@ -1,0 +1,178 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333; /* Cor do texto dos cards */
+}
+
+
+header {
+    background-color: #005d99;
+    color: white;
+    padding: 20px 0; /* Altura da barra de menu superior */
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ffd700;
+}
+
+/* Banner */
+.banner {
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+    background-color: #0077cc;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 20px; /* tamanho do subtítulo do banner */
+}
+
+
+.noticias {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.noticias h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #005d99;
+}
+
+.news {
+    padding: 40px 20px;
+    text-align: justify;
+    background-color: #ffffff;
+}
+
+.news h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #FF4500;
+}
+
+.news p{
+    padding: 0px 50px 5px;
+}
+
+.cidade {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.cidade h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: red;
+}
+
+.cidade p{
+    text-align: justify;
+    padding: 10px 30px;
+}
+
+.recortes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.recorte {
+    background-color: #e6f1f8;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.recorte:hover {
+    transform: scale(1.03);
+}
+
+.recorte img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.recorte h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #003d66;
+}
+
+.recorte p {
+    font-size: 16px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.foto {
+    background-color: #00FA9A;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.foto:hover {
+    transform: scale(1.03);
+}
+
+.foto img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    background-color: #003d66;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+}

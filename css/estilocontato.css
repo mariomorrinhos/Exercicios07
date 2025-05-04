@@ -1,0 +1,32 @@
+.contato {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #006400; /* verde escuro */
+}
+
+.contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contato a {
+    color: #008000; /* verde */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contato a:hover {
+    color: orange; /* laranja */
+}
